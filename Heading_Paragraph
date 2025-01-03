@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<HTML>
+    <BODY>
+        <h1>
+            This is the main heading
+        </h1>
+        <h6>
+            This is the least important heading.
+        </h6>
+        <p>
+            This is the paragraph
+            that contains a lot of lines about the
+
+            source code.
+        </p>
+        <p style="color:red";>
+            This is another paragraph in which we will be learnig the use of horizontal break"
+            <hr>
+            <p style=" color:green;">
+            This is how pages are seperated
+            </p>
+            <hr>
+            Like this,yes.
+        </p>
+
+        <H2>
+            we will now be learning the use of br </h2>
+            <p>
+                this<br>
+                is<br> the use<br> of <br> breakpoint.
+            </p>
+
+        <h3>
+            THIS IS THE POEM PROBLEM..
+        </h3>  
+        <P>
+            This is solved using pre tag..
+            this is used to showcase preformatted text..
+            <pre>
+            Out in the garden
+            each fine day
+            with my rope
+            i like to play..
+        </pre>
+        </P>  
+        
+    </BODY>
+</HTML>
