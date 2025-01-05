@@ -1,0 +1,40 @@
+<!--Cascading Style Sheets-->
+<!--  1.Inline(using style)   2.Internal(<style> in head section);   3.External(using<link>)  -->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"> <!--this is external-->
+        <!--this is internal-->
+        <style>  
+            body {background-color:antiquewhite;}
+            h5 {color:blueviolet;}
+            p {font-size: medium;}
+        </style>
+
+        <style>            
+    
+            p {  
+                border: 2px solid powderblue;  
+                padding : 30px;
+                margin: 50px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        
+        <p style="color:green">    <!--This is inline css-->
+            This is green coloured inline CSS example.
+        </p>
+        <h5>
+            This is a text in heading. This will be a part of internal CSS example.
+
+        </h5>
+
+        <p>
+            hey, I am the new paragraph..
+        </p>
+    </body>
+</html>
