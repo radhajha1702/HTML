@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML with CSS Styles</title>
+  <style>
+    /* Global body styling */
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* Styling for the main heading */
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    /* Styling for a content container using a class */
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    /* Styling for a highlighted text using an ID */
+    #highlight {
+      color: #d9534f;
+      font-weight: bold;
+    }
+
+    /* Link styling */
+    a {
+      color: #0275d8;
+      text-decoration: none;
+    }
+
+    /* Hover effect for links */
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Styled Page</h1>
+  <div class="content">
+    <p>
+      This is a sample page demonstrating how to apply CSS styles within an HTML document.
+      The styles are defined in the `<style>` block within the `<head>` section.
+    </p>
+    <p>
+      For example, this text uses a special style defined with an ID:
+      <span id="highlight">Highlighted Text</span>
+    </p>
+    <p>
+      To learn more about CSS, check out
+      <a href="https://www.w3schools.com/css/">this CSS tutorial</a>.
+    </p>
+  </div>
+</body>
+</html>
